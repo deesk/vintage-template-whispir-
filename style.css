@@ -27,8 +27,6 @@ format('woff'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Grap
 format('truetype'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/headerAssets/Graphik-Semibold.otf?t=1472058388525')
 format('otf')}
 
-
-
 * {
   /*border: 1px solid red;*/
   margin: 0;
@@ -86,16 +84,17 @@ html {
 /* Within Box Wrapper*/
 .box-wrapper {
   background-color: #444142;
-  border: 1px solid #444142;
+  /*border: 1px solid #444142;*/
   font-family: 'Open Sans', sans-serif;
+  padding: 0 0 7% 0;
 }
 .box {
   position: relative;
-  border: 1px solid black;
-  background-color: white;
-  width: 90%;
+  /*border: 1px solid black;*/
+  background-color: #e6e5e4;
+  width: 89.2%;
   padding: 5% 5%;
-  margin: 5% auto;
+  margin: 0 auto;
 }
 .number {
   display: inline-block;
@@ -117,6 +116,13 @@ html {
   margin-bottom: 1%;
 }
 /* Rate your experience section */
+.gradient-bg {
+  background-image: url("images/gradient_bg.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .rate-wrapper {
   text-align: center;
   margin-top: 0;
@@ -132,7 +138,6 @@ html {
 
 /* Comment Box */
 .text-area {
-  margin-top: 4%;
   padding: 4%;
   text-align: left;
   background-color: #cccccc;
@@ -148,8 +153,8 @@ html {
   width: 100%;
 }
 button {
-   width: 100%;
-   margin: 5% 0;
+  width: 100%;
+  margin: 5% 0;
   display: block;
 }
 .sofa-img {
