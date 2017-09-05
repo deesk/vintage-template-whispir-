@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+@font-face{font-family:'Media77 Regular';
+src:url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Media77-Regular/Media77-Regular.eot?t=1472058388525') 
+format('eot'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Media77-Regular/Media77-Regular.woff?t=1472058388525') 
+format('woff'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Media77-Regular/Media77-Regular.ttf?t=1472058388525') 
+format('truetype'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/headerAssets/Media77-Regular.otf?t=1472058388525') 
+format('otf')}
+
+@font-face{font-family:'Media77 Medium';src:url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Media77-Medium/Media77-Medium.eot?t=1472058388525') 
+format('eot'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Media77-Medium/Media77-Medium.woff?t=1472058388525') 
+format('woff'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Media77-Medium/Media77-Medium.ttf?t=1472058388525') 
+format('truetype'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/headerAssets/Media77-Medium.otf?t=1472058388525') 
+format('otf')}
+
+@font-face{font-family:'Graphik Semibold';src:url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Graphik-Semibold/Graphik-Semibold.eot?t=1472058388525') 
+format('eot'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Graphik-Semibold/Graphik-Semibold.woff?t=1472058388525') 
+format('woff'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Graphik-Semibold/Graphik-Semibold.ttf?t=1472058388525') 
+format('truetype'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/headerAssets/Graphik-Semibold.otf?t=1472058388525') 
+format('otf')}
+
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.clear_all {
+	clear: both;
+	height: 0;
+	padding: 0;
+}
+
+#wrapper {
+	max-width:600px;
+	background: #B1A1A1;
+	margin: 0px auto;
+}
+
+#cont_top {
+	background: #3f3c3d url(../images/top_bg.jpg) top center no-repeat;	
+	min-height: 575px;
+	/*position: relative;*/
+	clear: both;
+	width: 100%;
+}
+
+#cont_top .top_circle {
+	float: right;
+	width:80px;
+	height: 80px;
+	padding: 5px 5px 10px 20px;
+	display: block;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	background: url(../images/top_rgt.png) top right no-repeat;
+	background-size: cover;
+}
+
+#cont_top .logo {
+	width: 90px;
+	/*height: 54px;*/
+	display: block;
+	margin: 0px auto;
+	padding: 50px 0px 20px;
+}
+
+#cont_top h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size:25px;
+	color: white;
+	margin: 10px 10%;
+	/*margin: 30px 20%;*/
+	font-weight: 400;
+	text-align: center;
+}
+
+#cont_top h2 {
+	font-family:'Media77 Regular';
+	font-size:34px;
+	font-weight: 100;
+	color: black;
+	margin: 10px 10% 25px;
+	text-align: center;
+}
+
+#cont_top h2 span {
+	color: #f51b04;
+}
+
+#cont_top .top_sofa {
+	width: 100%;
+	height: 0;
+	padding-bottom: 35%;
+	display: block;
+	background: url(../images/top_sofa.png) top center no-repeat;
+	background-size: cover;
+}
+	
+#cont_voucher {
+	width: 100%;
+	min-height: 350px;
+	background: url(../images/top_sofa_bottom.png) top center no-repeat #3b3839; /* For browsers that do not support gradients */
+	float:left;
+}
+
+#cont_voucher h3 {
+	font-size: 24px;
+	line-height: 24px;
+	margin: 15px 0px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+#cont_voucher .voucher_box {
+	margin: 0px 5%;
+	background: white;
+	width: 90%;
+}
+
+#cont_voucher .voucher_box h4 {
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	width: 90%;
+	padding: 0px 5%;
+	line-height: 55px;
+	background: #c7037f;
+	color: white;
+	text-align: center;
+}
+
+
+#cont_voucher .voucher_box h5 {
+	font-size: 22px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	line-height: 40px;
+	font-weight:bold;
+}
+
+#cont_voucher .voucher_box .voucher_details {
+	background: white;
+	width: 90%;
+	padding: 40px 5%;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px;	
+}
+
+#cont_voucher .voucher_box .voucher_details h6 {
+	font-size: 22px;
+	text-align: center;
+	font-weight: 100;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#cont_voucher .voucher_box .voucher_details .barcode {
+	width: 80%;
+	height: auto; 
+	margin: 0px auto;
+}
+
+
+#cont_voucher .voucher_box .voucher_details .voucher_sofa {
+	width: 100%;
+	height: 0;
+	padding-bottom: 41%;
+	display: block;
+	background: url(../images/Voucher_sofa.png../images/top_sofa.png) top center no-repeat;
+	background-size: cover;
+}
+
+@media only screen and (min-width: 350px) {
+	#cont_top .top_circle {
+		width:105px;
+		height: 105px;
+		padding: 15px 15px 20px 35px;
+		font-size: 26px;
+	}		
+
+	#cont_top .logo {
+		width: 110px;
+		padding: 30px 0px 10px;
+	}
+	
+	#cont_top h1 {
+		font-size:28px;
+	}
+	
+	#cont_voucher .voucher_box .voucher_details .barcode {
+		
+	}
+}
+
+
+@media only screen and (min-width: 400px) {	
+	#cont_top .logo {
+		width: 130px;
+		padding: 50px 0px 10px;
+	}
+	
+	#cont_top h1 {
+		font-size:32px;
+	}
+	
+	#cont_voucher .voucher_box .voucher_details .barcode {
+		width: 282px;
+		height: 142px; 
+	}
+}
+
+
+@media only screen and (min-width: 500px) {	
+	#cont_top .logo {
+		width: 161px;
+		/*height: 96px;*/
+		padding: 50px 0px 20px;
+	}
+	
+	#cont_top h2 {
+		font-size:44px;
+		margin: 10px 10% 25px;
+	}
+}
+

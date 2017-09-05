@@ -1,0 +1,173 @@
+
+
+@charset "utf-8";
+
+/* Global */
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+@font-face{font-family:'Media77 Regular';
+src:url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Media77-Regular/Media77-Regular.eot?t=1472058388525')
+format('eot'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Media77-Regular/Media77-Regular.woff?t=1472058388525')
+format('woff'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Media77-Regular/Media77-Regular.ttf?t=1472058388525')
+format('truetype'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/headerAssets/Media77-Regular.otf?t=1472058388525')
+format('otf')}
+
+@font-face{font-family:'Media77 Medium';src:url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Media77-Medium/Media77-Medium.eot?t=1472058388525')
+format('eot'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Media77-Medium/Media77-Medium.woff?t=1472058388525')
+format('woff'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Media77-Medium/Media77-Medium.ttf?t=1472058388525')
+format('truetype'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/headerAssets/Media77-Medium.otf?t=1472058388525')
+format('otf')}
+
+@font-face{font-family:'Graphik Semibold';src:url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Graphik-Semibold/Graphik-Semibold.eot?t=1472058388525')
+format('eot'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Graphik-Semibold/Graphik-Semibold.woff?t=1472058388525')
+format('woff'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/fonts/Graphik-Semibold/Graphik-Semibold.ttf?t=1472058388525')
+format('truetype'),url('//cdn2.hubspot.net/hubfs/606372/redesign_20160801/headerAssets/Graphik-Semibold.otf?t=1472058388525')
+format('otf')}
+
+
+
+* {
+  /*border: 1px solid red;*/
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#ui-wrapper {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  border: 1px solid black;
+}
+/* Top Part Logo and Heading */
+.top-wrapper {
+  background-image: url("images/top_bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.logo {
+  padding: 6%;
+}
+.top-text {
+  font-size: 3em;
+}
+.top-text span {
+  color: #f51b04;
+}
+.top-sofa {
+  margin-top: 10%;
+  line-height: 0;
+}
+.top-sofa img {
+  width: 100%;
+}
+.rate-offer {
+  background-image: url("images/voucher_bg.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-size: 1.3em;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 0 6% 0;
+}
+
+/* Within Box Wrapper*/
+.box-wrapper {
+  background-color: #444142;
+  border: 1px solid #444142;
+  font-family: 'Open Sans', sans-serif;
+}
+.box {
+  position: relative;
+  border: 1px solid black;
+  background-color: white;
+  width: 90%;
+  padding: 5% 5%;
+  margin: 5% auto;
+}
+.number {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: calc(-2em/2);
+  left: calc(50% - 1.4em);
+  padding: 1.5% 0 0 0 ;
+  border: 1px solid #c7037f;
+  border-radius: 50%;
+  color: #c7037f;
+  font-size: 1.3em;
+  font-weight: bold;
+  background: white;
+}
+.box h3 {
+  font-size: 1.2em;
+  margin-bottom: 1%;
+}
+/* Rate your experience section */
+.rate-wrapper {
+  text-align: center;
+  margin-top: 0;
+}
+.hr-line {
+  border: 1px solid #cccccc;
+  margin: 5% 0;
+}
+.rate-text i {
+  color: #c7037f;
+  padding: 0 3%;
+}
+
+/* Comment Box */
+.text-area {
+  margin-top: 4%;
+  padding: 4%;
+  text-align: left;
+  background-color: #cccccc;
+  height: 150px;
+}
+
+/* About You */
+.about-you input {
+  display: block;
+  margin: 3% 0;
+  padding: 3%;
+  color: black;
+  width: 100%;
+}
+button {
+   width: 100%;
+   margin: 5% 0;
+  display: block;
+}
+.sofa-img {
+  width: 100%;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}
+
+.checkbox {
+  align: left;
+}
